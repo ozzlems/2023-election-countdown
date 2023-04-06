@@ -10,16 +10,22 @@ body{
 }
 
 h2{
-    font-size: 2.8rem;
+    font-size: 2.9rem;
     font-weight: bold;
     text-align: center;
-    padding: 4rem;
-    padding-bottom: 5rem;
-    padding-top: 4rem;
-   
+    padding: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 3.5rem;
+    color: rgb(177, 45, 45);
+    text-shadow: 1px 6px 10px rgba(52, 52, 52, 0.256);
+   }
 
-
-}
+   h3{
+    margin-top: 3vh;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+   }
 
 .coming{
     min-height: 100vh;
@@ -34,11 +40,14 @@ h2{
     justify-content: space-between;
     text-align: center;
     margin-top: 3rem;
+    
 }
 
 .day,.hour,.minute,.second{
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-shadow: 1px 6px 12px rgba(52, 52, 52, 0.197);
+
     
 
 }
@@ -48,7 +57,18 @@ h2{
    width: 90vh;
    position: relative;
    align-content: center;
-   top: 80px;
+   top: 70px;
    left: 2px;
    
+}
+
+.flag{
+    position: relative;
+    height: 6.675vh; 
+    width: 10vh;
+    top: 25px;
+    justify-content:left;
+    flex-direction:inherit;
+    left: -680px;
+
 }
