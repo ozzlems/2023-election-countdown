@@ -6,17 +6,17 @@
 
 body{
     font-family: 'Ubuntu' , sans-serif;
- 
+     
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: bold;
     text-align: center;
     padding: 4rem;
     padding-bottom: 5rem;
-    padding-top: 5rem;
-    margin-top: 1rem;
+    padding-top: 4rem;
+   
 
 
 }
@@ -33,11 +33,21 @@ h2{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .day,.hour,.minute,.second{
-    font-size: 3.5rem;
+    font-size: 2.8rem;
+    
 
+}
 
+.voting{
+   height:40vh;
+   width: 90vh;
+   position: relative;
+   align-content: center;
+   top: 80px;
+   left: 2px;
+   
 }
