@@ -18,4 +18,5 @@ const countdown = () => {
     document.querySelector('.minute').innerText = textMinute;
     document.querySelector('.second').innerText = textSecond;
 };
-countdown();
+
+setInterval(countdown , 1000);
